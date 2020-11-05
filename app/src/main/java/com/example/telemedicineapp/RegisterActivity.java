@@ -23,7 +23,7 @@ import android.app.Dialog;
 import java.util.Calendar;
 
 import android.widget.DatePicker;
-//확인2
+//확인3
 
 public class RegisterActivity extends AppCompatActivity {
     private EditText et_id,et_pass,et_name,et_date;
