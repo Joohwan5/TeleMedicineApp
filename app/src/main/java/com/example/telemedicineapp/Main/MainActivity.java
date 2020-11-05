@@ -1,4 +1,4 @@
-package com.example.telemedicineapp;
+package com.example.telemedicineapp.Main;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,8 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-import org.w3c.dom.UserDataHandler;
+import com.example.telemedicineapp.R;
+
 
 public class MainActivity extends AppCompatActivity {
 
