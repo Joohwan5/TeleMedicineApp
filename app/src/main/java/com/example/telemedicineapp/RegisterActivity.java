@@ -4,6 +4,7 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -39,6 +40,7 @@ public class RegisterActivity extends AppCompatActivity {
         et_pass=findViewById(R.id.et_pass);
         et_name=findViewById(R.id.et_name);
         et_date = findViewById(R.id.et_date);
+        et_date.setEnabled(false);
 
         et_ok = findViewById(R.id.et_ok); // 확인 버튼
         but_calender= findViewById(R.id.but_calender); //날짜 버튼
