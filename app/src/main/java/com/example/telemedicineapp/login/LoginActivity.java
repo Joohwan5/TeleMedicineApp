@@ -59,12 +59,14 @@ public class LoginActivity extends AppCompatActivity {
                                 String userPass = jsonObject.getString("userPassword"); // 뒤에 패스워드 적은건 php 이름그대로 가져와서 사용해야함
 
                                 Toast.makeText(getApplicationContext(),"로그인에 성공하였습니다.",Toast.LENGTH_SHORT).show();
-                                Intent intent = new Intent(LoginActivity.this, MainActivity.class); // 화면전화?
 
+                                //여기다가 실행
+                                Intent intent = new Intent(LoginActivity.this, MainActivity.class); // 화면전화?
                                 intent.putExtra("userID",userID);
                                 intent.putExtra("userPass",userPass);
 
                                 startActivity(intent);
+                                finish();
                             }
                             else{//실패시
                                 Toast.makeText(getApplicationContext(),"로그인에 실패하였습니다..",Toast.LENGTH_SHORT).show();

@@ -3,21 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.telemedicineapp">
 
-
-
-    <uses-permission android:name="android.permission.INTERNET"/>    <!--인터넷 권한 설정  -->
-
-
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:usesCleartextTraffic="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TelemedicineApp"
+        android:usesCleartextTraffic="true"
         tools:targetApi="m">
+        <activity android:name=".HealthRecord.HealthRecordFirst"></activity>
         <activity android:name=".login.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,9 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Register.RegisterActivity" />
-        <activity android:name=".Main.MainActivity">
-
-        </activity>
+        <activity android:name=".Main.MainActivity"></activity>
     </application>
 
 </manifest>
