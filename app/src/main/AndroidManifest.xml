@@ -13,6 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TelemedicineApp"
         android:usesCleartextTraffic="true"
+
         tools:targetApi="m">
         <activity android:name=".login.LoginActivity">
             <intent-filter>
@@ -23,7 +24,6 @@
         </activity>
         <activity android:name=".Register.RegisterActivity" />
         <activity android:name=".Main.MainActivity"></activity>
-        <activity android:name=".HealthRecord.HealthRecordFirst"></activity>
         <activity android:name=".RecordHealth.HealthRecord"></activity>
     </application>
 

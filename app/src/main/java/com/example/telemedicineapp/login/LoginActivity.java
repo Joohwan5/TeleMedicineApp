@@ -15,9 +15,7 @@ import android.widget.Toast;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.toolbox.Volley;
-import com.example.telemedicineapp.HealthRecord.FirstFragment;
-import com.example.telemedicineapp.HealthRecord.HealthRecordFirst;
-import com.example.telemedicineapp.HealthRecord.ViewPagerAdapter;
+
 import com.example.telemedicineapp.Main.MainActivity;
 import com.example.telemedicineapp.R;
 import com.example.telemedicineapp.RecordHealth.First_Fragment;

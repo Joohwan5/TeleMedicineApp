@@ -8,10 +8,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.viewpager.widget.ViewPager;
 
-import com.example.telemedicineapp.HealthRecord.FirstFragment;
-import com.example.telemedicineapp.HealthRecord.SecondFragment;
-import com.example.telemedicineapp.HealthRecord.ThirdFragment;
-import com.example.telemedicineapp.HealthRecord.ViewPagerAdapter;
+
 import com.example.telemedicineapp.R;
 import com.google.android.material.tabs.TabLayout;
 
@@ -19,7 +16,6 @@ public class HealthRecord extends AppCompatActivity {
     public static String userName;
     public static String userID;
 
-    public static String aa;
     private First_Fragment first_fragment;
     private Second_Fragment second_fragment;
     private Third_Fragment third_fragment;

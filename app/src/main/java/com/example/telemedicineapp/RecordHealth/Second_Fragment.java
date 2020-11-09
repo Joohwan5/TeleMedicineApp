@@ -18,7 +18,6 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.telemedicineapp.HealthRecord.SharedViewModel;
 import com.example.telemedicineapp.R;
 
 
