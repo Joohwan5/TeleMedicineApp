@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/image_but"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".login.LoginActivity">
@@ -45,6 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="로그인"
+        app:backgroundTint="@color/colorPrimary"
         app:layout_constraintEnd_toEndOf="@+id/log_pass"
         app:layout_constraintStart_toStartOf="@+id/log_pass"
         app:layout_constraintTop_toBottomOf="@+id/log_pass" />
@@ -58,4 +60,5 @@
         app:layout_constraintEnd_toEndOf="@+id/btn_login"
         app:layout_constraintStart_toStartOf="@+id/btn_login"
         app:layout_constraintTop_toBottomOf="@+id/btn_login" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

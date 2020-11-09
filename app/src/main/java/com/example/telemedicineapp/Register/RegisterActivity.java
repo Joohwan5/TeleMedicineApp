@@ -170,7 +170,6 @@ public class RegisterActivity extends AppCompatActivity {
                         responseListener = new Response.Listener<String>() {
                             @Override
                             public void onResponse(String response) {
-
                                 try {
                                     JSONObject jsonObject = new JSONObject(response);
                                     boolean success = jsonObject.getBoolean("success");
@@ -192,7 +191,6 @@ public class RegisterActivity extends AppCompatActivity {
                         registerRequest = new RegisterRequest(userID, userPass, userName, userBirth,first_login,responseListener);
                         RequestQueue queue = Volley.newRequestQueue(RegisterActivity.this);
                         queue.add(registerRequest);
-
                         }
                     }
                 }
@@ -200,7 +198,7 @@ public class RegisterActivity extends AppCompatActivity {
                 else {//실패시
                     Toast.makeText(getApplicationContext(), "빈칸을 등록해 주십시오 ", Toast.LENGTH_SHORT).show();
                     return;
-                };
+                }
 
             }
 

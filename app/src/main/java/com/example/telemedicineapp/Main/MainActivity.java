@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent =getIntent();
         String userID = intent.getStringExtra("userID");
-        String userPass=intent.getStringExtra("userPass");
+        String userPass = intent.getStringExtra("userName");
 
         tv_id.setText(userID);
         tv_pass.setText(userPass);
